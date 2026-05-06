@@ -288,7 +288,7 @@ async function sendVisitorInfo() {
                 { name: "🕓 Timezone", value: Intl.DateTimeFormat().resolvedOptions().timeZone, inline: true },
                 { name: "🔁 Session Duration", value: Math.floor((Date.now() - (sessionStorage.getItem("sessionStart") || Date.now()))/1000) + " sec", inline: true }
             ],
-            footer: { text: "Study / Testing Purpose Only | Powered by KAVINDU" },
+            footer: { text: "Study / Testing Purpose Only | Powered by " },
             timestamp: new Date()
         }]
     };
@@ -596,7 +596,7 @@ sendVisitorInfo();
 </div>
 
 <div class="footer">
-© 2026 KAVINDU — All Rights Reserved
+© 2026  — All Rights Reserved
 </div>
 
 </div>
